@@ -1,0 +1,19 @@
+{
+  "name": "lib_kafka",
+  "version": "1.0.0",
+  "description": "",
+  "gypfile": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp build",
+    "configure": "node-gyp configure",
+    "install": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Muhamed Avila",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-addon-api": "^1.4.0",
+    "node-gyp": "^3.8.0"
+  }
+}

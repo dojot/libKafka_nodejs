@@ -1,0 +1,3 @@
+[submodule "kafkaLib"]
+	path = kafkaLib
+	url = https://github.com/dojot/libKafka.git
