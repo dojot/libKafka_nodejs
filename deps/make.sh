@@ -1,0 +1,5 @@
+DEPS_DIR=$1
+PREFIX_DIR=$2
+
+cd ${DEPS_DIR}
+make install MAKE_VERBOSE=1

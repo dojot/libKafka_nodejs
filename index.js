@@ -1,3 +1,3 @@
-const libKafka = require('./build/Release/_kafka.node');
+const adminkafka = require('./build/Release/adminkafka_node.node');
 
-module.exports = libKafka;
+module.exports = adminkafka;

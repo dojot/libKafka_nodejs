@@ -5,9 +5,9 @@
   "gypfile": true,
   "main": "index.js",
   "scripts": {
-    "build": "node-gyp build",
-    "configure": "node-gyp configure",
-    "install": "node-gyp rebuild",
+    "build": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp build",
+    "configure": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp configure",
+    "install": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp rebuild",
     "clean": "node-gyp clean"
   },
   "author": "Muhamed Avila",
