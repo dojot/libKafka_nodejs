@@ -1,9 +1,9 @@
 {
-  "name": "lib_kafka",
+  "name": "adminkafka",
   "version": "1.0.0",
   "description": "",
   "gypfile": true,
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp build",
     "configure": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp configure",
