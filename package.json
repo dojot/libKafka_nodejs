@@ -1,0 +1,19 @@
+{
+  "name": "@dojot/adminkafka",
+  "version": "0.0.1-alpha.6",
+  "description": "",
+  "gypfile": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp build",
+    "configure": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp configure",
+    "install": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Muhamed Avila",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-addon-api": "^1.4.0",
+    "node-gyp": "^3.8.0"
+  }
+}

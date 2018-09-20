@@ -1,0 +1,3 @@
+[submodule "deps/libadminkafka"]
+	path = deps/libadminkafka
+	url = https://github.com/dojot/libadminkafka.git
