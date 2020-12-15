@@ -1,6 +1,6 @@
 {
   "name": "@dojot/adminkafka",
-  "version": "0.0.1-alpha.9",
+  "version": "0.2.0",
   "description": "",
   "gypfile": true,
   "main": "lib/index.js",
@@ -8,12 +8,26 @@
     "build": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp build",
     "configure": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp configure",
     "install": "env PKG_CONFIG_PATH=./build/share/pkgconfig node-gyp rebuild",
-    "clean": "node-gyp clean"
+    "clean": "node-gyp clean",
+    "check-licenses": "apache2-license-checker"
   },
   "author": "Muhamed Avila",
-  "license": "GPL-3.0",
+  "contributors": [
+    "Giovanni Curiel dos Santos",
+    "Eric Baum"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "dependencies": {
     "node-addon-api": "^1.4.0",
     "node-gyp": "^3.8.0"
+  },
+  "devDependencies": {
+    "@bbc/apache2-license-checker": "^1.1.4"
   }
 }
